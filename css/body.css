@@ -1,0 +1,28 @@
+
+.body__buttons {
+    margin: 30px auto;
+    align-items: center;
+}
+.body__buttons--reshape {
+    width: 100%;
+    border: none;
+    background-color: #98BA7D;
+    color: grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.body__buttons .body__buttons--reshape:hover {
+    background-color: #b8d89e;
+}
+
+
+.body__buttons .body__buttons--reshape:active {
+    background-color: #dcf0cb;
+}
+
+
+.form {
+    margin: 60px auto;
+}
