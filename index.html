@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Kantorek Marii</title>
+    <link rel="icon" href="images/cc-fococlipping-standard.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/background.css" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="background"><header class="header">
+        Witaj w wesołym kontorku Marii.
+    </header>
+    <form class="js-form">
+        <fieldset class="form">
+            <legend class="form form__legend">Baw się dobrze!</legend>
+            <section class="form">
+                <p>
+                    <label>
+                        <span class="form form__label" class="js-empty">Wartość w złotówkach:</span><input
+                            class="form__field" type="number" name="amount" min="1" step="any" required>
+                    </label>
+                </p>
+            </section>
+            <section>
+                <p>
+                    <label class="js-currency"><span class="form__label">
+                            Wybierz walutę końcową :</span>
+                        <select>
+                            <option value="Złota">Gramów złota</option>
+                        </select>
+                    </label>
+                </p>
+    </form>
+    <p>
+        <span class="form form__label">Otrzymasz :<strong class="js-exchange">N/A</strong></span>
+    </p>
+    </fieldset>
+    </section>
+    <section class="body body__buttons">
+        <button class="body__buttons body__buttons--reshape" class="js-subbmit">Oblicz.</button>
+        <button class="body__buttons body__buttons--reshape" type="reset" class="js-reset">Wyczyść dane.</button>
+    </section>
+    <footer class="footer">
+        Copyright © ALLOHA DESIGN x kantorek na haju
+    </footer>
+</div>
+</body>
+</html>
