@@ -6,8 +6,8 @@ let resultElement = document.querySelector(".js-result");
 let currencyElement = document.querySelector(".js-currency");
 
 let gramZlota = 258;
-let bitcoin = 98783.13;
-let akcjiOrlen = 64.74;
+let bitcoin = 98437.77; 
+let akcjiOrlen = 65.64;
 
 formElement.addEventListener("input", () => {
     let plnAmount = +plnElement.value;
