@@ -1,28 +1,29 @@
 
-.body__buttons {
-    margin: 30px auto;
-    align-items: center;
-}
-.body__buttons--reshape {
-    width: 100%;
-    border: none;
-    background-color: #98BA7D;
-    color: grey;
+.body {
+    max-width: 600px;
     padding: 10px;
-    border-radius: 5px;
+    margin: 50px auto;
+    color: #292930;
+    font-family: 'Comfortaa', cursive;
+    line-height: 1.5;
 }
 
-
-.body__buttons .body__buttons--reshape:hover {
-    background-color: #b8d89e;
-}
-
-
-.body__buttons .body__buttons--reshape:active {
-    background-color: #dcf0cb;
-}
-
-
-.form {
+.header {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 4px;
     margin: 60px auto;
 }
+
+
+.footer {
+
+    text-align: center;
+    background-color: rgb(247, 243, 243);
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Comfortaa', cursive;
+}
+
