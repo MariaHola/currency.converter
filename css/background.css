@@ -1,6 +1,8 @@
 .background {
     background-size: auto;
+    background-position: center;
     resize: both;
     overflow: auto;
+    background-size: cover;
     background-image: url("../images/currency-backgr.jpg");
 }
