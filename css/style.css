@@ -1,34 +1,8 @@
+
 html {
     box-sizing: border-box;
 }
 
 *, ::after, ::before {
     box-sizing: inherit;
-}
-
-.body {
-    max-width: 800px;
-    padding: 40px;
-    margin: auto 200px;
-    color: grey;
-    font-family: 'Comfortaa', cursive;
-    line-height: 1.5;
-}
-
-.header {
-    font-weight: bold;
-    text-align: center;
-    font-size: 20px;
-    text-shadow: 4px;
-    margin: 60px auto;
-}
-
-
-.footer {
-
-    text-align: center;
-    background-color: rgb(247, 243, 243);
-    padding: 15px;
-    margin: auto;
-    font-family: 'Comfortaa', cursive;
 }
