@@ -1,3 +1,17 @@
 .form {
     margin: 100px;
 }
+
+@media (max-width: 600px) {
+    .form__fieldset {
+       display: flex;
+       align-items: center;
+       flex-wrap: wrap;
+       flex-direction: column;
+    }
+}
+
+.form__field {
+    width: 55%;
+}
+
